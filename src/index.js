@@ -18,7 +18,7 @@ const refreshScores = async () => {
     scoreList.innerHTML = '';
 
     // Create list items for each score
-    scores.result.forEach(score => {
+    scores.result.forEach((score) => {
       const listItem = document.createElement('li');
       listItem.textContent = `${score.user}: ${score.score}`;
       scoreList.appendChild(listItem);

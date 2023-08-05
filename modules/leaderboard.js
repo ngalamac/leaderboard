@@ -45,7 +45,7 @@ const leaderboard = {
         },
         body: JSON.stringify({
           user: name,
-          score: score,
+          score,
         }),
       });
       const data = await response.json();

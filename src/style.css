@@ -1,76 +1,90 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-main{
-    display: flex;
-    justify-content: center;
-    gap: 100px;
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
 }
+
 .logo img {
-    margin: 10px;
-    width: 100px;
-    height: auto;
+  margin: 10px;
+  width: 100px;
+  height: auto;
 }
+
 .list-title {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
+
 .lis-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
 form {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 12px;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
 }
+
 input {
-    padding: 5px;
-    border: 2px solid black;
+  padding: 5px;
+  border: 2px solid black;
 }
+
 form button {
-    margin: 2px 0 2px 90px;
-    border: 2px solid black;
-    padding: 1px 5px 1px 5px;
-} 
+  margin: 2px 0 2px 90px;
+  border: 2px solid black;
+  padding: 1px 5px 1px 5px;
+}
+
 .list-title button {
-    border: 2px solid black;
-    padding: 1px 5px 1px 5px;
+  border: 2px solid black;
+  padding: 1px 5px 1px 5px;
 }
+
 h2 {
-    font-size: 26px;
-    font-weight: bold;
+  font-size: 26px;
+  font-weight: bold;
 }
+
 ul {
-    border: 2px solid black;
-    padding: 15px;
-    margin-top: 25px;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+  border: 2px solid black;
+  padding: 15px;
+  margin-top: 25px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
+
 ul li {
-    list-style: none;
-    font-size: 24px;
+  list-style: none;
+  font-size: 24px;
 }
+
 footer {
-    background-color: grey;
-    margin-top: 109px;
+  background-color: grey;
+  margin-top: 109px;
 }
-footer p{
-    text-align: center;
-    font-size: 24px;
+
+footer p {
+  text-align: center;
+  font-size: 24px;
 }
